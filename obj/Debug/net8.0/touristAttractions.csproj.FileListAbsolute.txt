@@ -44,3 +44,4 @@ C:\23-24 year local\23-24 year\devopsSecurity\touristAttractions\obj\Debug\net8.
 C:\23-24 year local\23-24 year\devopsSecurity\touristAttractions\obj\Debug\net8.0\touristAttractions.pdb
 C:\23-24 year local\23-24 year\devopsSecurity\touristAttractions\obj\Debug\net8.0\touristAttractions.genruntimeconfig.cache
 C:\23-24 year local\23-24 year\devopsSecurity\touristAttractions\obj\Debug\net8.0\ref\touristAttractions.dll
+C:\23-24 year local\23-24 year\devopsSecurity\touristAttractions\obj\Debug\net8.0\touristAttractions.sourcelink.json
