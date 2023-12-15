@@ -1,0 +1,34 @@
+﻿@using Contentful.Core.Models
+
+@model ContentfulCollection<touristAttraction>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>Tourist Attractions</h1>
+<hr>
+<div class="card-container">
+    @foreach (var attraction in Model)
+    {
+        <div class="card">
+            <h2>@attraction.Name</h2>
+            @if (attraction?.Image?.File?.Url != null)
+            {
+                <img src="@attraction.Image.File.Url" alt="Image of @attraction.Name" class="card-image" />
+            }
+            <div class="card-body">
+                <p><strong>Rating:</strong> @attraction?.Rating</p>
+                <p>@attraction?.Description</p>
+                <p><strong>Admission Fee:</strong> @attraction?.AdmissionFee</p>
+                <p><strong>Category:</strong> @attraction?.Category</p>
+                <p><strong>Location:</strong> @attraction?.Location</p>
+            </div>
+        </div>
+    }
+</div>
+
